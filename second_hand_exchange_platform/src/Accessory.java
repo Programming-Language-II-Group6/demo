@@ -1,5 +1,5 @@
 
-public class Accessory extends Item implements Item_Manager{
+public class Accessory extends Item{
 	private String Iname;
 	private String Pname;
 	private int ID;
@@ -17,18 +17,18 @@ public class Accessory extends Item implements Item_Manager{
 	//methods
 	public String getIName() {
 		return Iname;
-	};
+	}
 	public int getID() {
 		return ID;
-	};
+	}
 	public String getPName() {
 		return Pname;
-	};
+	}
 	public int getCondition() {
 		return condition;
-	};
+	}
 	public String getDescription() {
 		return description;
-	};
+	}
 
 }

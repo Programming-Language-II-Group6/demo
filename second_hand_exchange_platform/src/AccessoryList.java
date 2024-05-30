@@ -1,6 +1,8 @@
 import java.util.ArrayList;
-public class AccessoryList extends ItemList implements ItemList_Manager{
+public class AccessoryList extends ItemList{
+	
 	private ArrayList<Accessory> accessoryList;
+	
 	public AccessoryList() {
 		this.accessoryList = new ArrayList<Accessory>();
 	}
@@ -24,8 +26,8 @@ public class AccessoryList extends ItemList implements ItemList_Manager{
 	}
 	public void deleteItem(Item i) {
 		if(i instanceof Accessory) {
-			Accessory a = (Accessory)i;
-			this.accessoryList.remove(a);
+			//Accessory a = (Accessory)i;
+			this.accessoryList.remove(i);
 		}
 	}
 }

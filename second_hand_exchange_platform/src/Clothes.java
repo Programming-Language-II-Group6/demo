@@ -1,5 +1,5 @@
 
-public class Clothes extends Item implements Item_Manager{
+public class Clothes extends Item{
 	private String Iname;
 	private String Pname;
 	private int ID;

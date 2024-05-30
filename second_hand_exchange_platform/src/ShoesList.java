@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-public class ShoesList extends ItemList implements ItemList_Manager{
+public class ShoesList extends ItemList{
 	private ArrayList<Shoes> shoesList;
 	public ShoesList() {
 		this.shoesList = new ArrayList<Shoes>();
